@@ -1,17 +1,21 @@
-const navContent = document.querySelector('.nav-content');
+window.addEventListener('DOMContentLoaded',()=>{
 
-navContent.addEventListener('click',(e)=>{
-    if(e.target.classList.contains('bars')){
-        const bars = document.querySelector('.bars');
-        const tabs = document.querySelector('.tabs');
-        const close = document.querySelector('.close');
+    const navContent = document.querySelector('.nav-content');
 
-        bars.addEventListener('click',()=>{
-            tabs.classList.remove('invisible');
-        });
+    navContent.addEventListener('click',(e)=>{
+        if(e.target.classList.contains('bars')){
+            const bars = document.querySelector('.bars');
+            const tabs = document.querySelector('.tabs');
+            const close = document.querySelector('.close');
 
-        close.addEventListener('click',()=>{
-            tabs.classList.add('invisible')
-        })
-    }
+            bars.addEventListener('click',()=>{
+                tabs.classList.remove('invisible');
+            });
+
+            close.addEventListener('click',()=>{
+                tabs.classList.add('invisible')
+            })
+        }
+    })
+
 })

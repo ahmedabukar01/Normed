@@ -1,15 +1,16 @@
 import {FaBars} from 'react-icons/fa';
 import {FaWindowClose} from 'react-icons/fa';
 
+
 const Navbar = () =>{
-   
+
     return (
         <div className="navbar">
             <div className="nav-content">
                 <div className="logo">
                     <span>NT</span>
                 </div>
-                <div className="tabs">
+                <div className="tabs invisible">
                     <FaWindowClose className="close" />
                 <ul>
                     
