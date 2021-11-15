@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './pages/home/Home';
 import Navbar from './pages/home/components/Navbar';
-import global from './global';
+
 
 function App() {
   return (

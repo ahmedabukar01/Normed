@@ -64,7 +64,7 @@
   .visible{
     display:block;
   }
-  .invisible{
+  .false{
     display: none;
   }
   .navbar .tabs{

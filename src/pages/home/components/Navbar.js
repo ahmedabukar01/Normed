@@ -1,17 +1,26 @@
 import {FaBars} from 'react-icons/fa';
 import {FaWindowClose} from 'react-icons/fa';
+import { useState } from 'react';
 
 
 const Navbar = () =>{
+    const [visible, setVisible] = useState(false);
 
+    const handleVisible = () =>{
+        setVisible(!visible);
+    }
+    
     return (
         <div className="navbar">
             <div className="nav-content">
                 <div className="logo">
                     <span>NT</span>
                 </div>
-                <div className="tabs invisible">
-                    <FaWindowClose className="close" />
+                <div className={`tabs ${visible}`}
+                >
+                    <FaWindowClose className="close" 
+                    onClick={()=>handleVisible()}
+                    />
                 <ul>
                     
                     <li><a href="#">Home</a></li>
@@ -22,7 +31,9 @@ const Navbar = () =>{
                     <li><a href="#">Resources</a></li>
                 </ul>
                 </div>
-                <FaBars className="bars visible" />
+                <FaBars className="bars visible" 
+                    onClick={()=>handleVisible()}
+                />
                 
             </div>
         </div>
