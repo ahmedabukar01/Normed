@@ -1,11 +1,49 @@
+
+:root{
+  --color1: #1512e7;
+  --color2: #6f0dca;
+  --color3: #020233;
+  --color4: #f1356d;
+}
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
-.home{
-  background:url('./images/banner1.jpg');
-  height: 100vh;
+
+.home-page{
+  background: radial-gradient(rgba(7, 5, 5, 0.808),rgba(39, 34, 34, 0.74)), url('./images/banner1.jpg');
+  height:100vh;
   background-position:center;
   background-size: cover;
+  overflow-x: hidden;
 }
+.navbar{
+  padding:10px 90px;
+  border-bottom: 3px solid #999999;
+  height: 52px;
+}
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar ul{
+  list-style-type: none;
+}
+.navbar ul li{
+  display: inline;
+}
+.navbar a{
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  color:#fff;
+}
+.logo span{
+  font-size: 30px;
+  font-weight: 600;
+  color:var(--color4);
+}
+
+/* responsive design */
