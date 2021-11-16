@@ -12,10 +12,16 @@ const Showcase = () => {
                 <span>Development</span> and <span>Support</span> Services based in Mogadisho
             </div>
             <button>Get My Guide
-                <FaArrowRight />
+                <FaArrowRight style={arrowStyle}/>
             </button>
         </div>
     )
 }
 
 export default Showcase;
+
+// css
+const arrowStyle = {
+    marginLeft: '10px',
+    fontSize: '19px',
+}
