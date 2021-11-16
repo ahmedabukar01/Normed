@@ -95,7 +95,7 @@
   border:none;
   font-size: 17px;
   padding:10px 18px;
-  border-radius: 20px;
+  border-radius: 10px;
   letter-spacing: 1px;
   display: flex;
   text-align: center;
@@ -121,7 +121,6 @@ button.btn:hover{
 }
 .about .left {
   width: calc(50% - 20px);
-  
 }
 .about .left img{
   width:100%;
@@ -214,6 +213,11 @@ button.btn:hover{
   }
   .showcase .subtitle{
     font-size: 18px;
+  }
+  .showcase .btn{
+    padding: 9px 10px;
+    font-size: 16px;
+    border-radius: 10px;
   }
 
   /* About */

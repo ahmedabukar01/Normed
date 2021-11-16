@@ -1,11 +1,11 @@
 import {FaArrowRight} from 'react-icons/fa';
-import myImage from '../images/banner1.jpg';
+import myImage from '../images/banner2.jpg';
 
 const About = () => {
     return (
         <div className="about center" id="about">
             <div className="left">
-                <img src={myImage} alt="image" />
+                <img src={myImage} alt="aboutimg" />
             </div>
             <div className="right">
                 <h1>About us</h1>
