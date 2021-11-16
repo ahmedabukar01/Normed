@@ -8,7 +8,7 @@ const About = () => {
                 <img src={myImage} alt="image" />
             </div>
             <div className="right">
-                <h2>About</h2>
+                <h1>About us</h1>
                 <h3>Normed Technology is The full service web design Agency You've Been looking for</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur

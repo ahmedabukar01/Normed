@@ -113,7 +113,19 @@
 
 /* About */
 .about{
-
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.about .left {
+  width: calc(50% - 20px);
+}
+.about .right{
+  width: calc(50% - 30px);
+}
+.about .left img{
+  width:100%;
+  object-fit: cover;
 }
 
 
