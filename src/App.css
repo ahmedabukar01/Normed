@@ -232,7 +232,13 @@ button.btn:hover{
     font-size: 35px;
   }
   .about .right h3{
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .about .right p{
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 100;
   }
   .about .right h1::after{
     top:-30px;
