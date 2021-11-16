@@ -4,6 +4,7 @@
   --color2: #6f0dca;
   --color3: #020233;
   --color4: #f1356d;
+  --color5: #29f722;
 }
 *{
   margin:0;
@@ -21,7 +22,7 @@
 } */
 .navbar{
   border-bottom: 1px solid #999999;
-  height: 52px;
+  height: 60px;
 }
 .center{
   padding:10px 90px;
@@ -29,6 +30,9 @@
 .nav-content{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  overflow-x: hidden;
   flex-wrap: wrap;
 }
 .navbar ul{
@@ -46,6 +50,7 @@
 .bars{
   font-size: 30px;
   color: #fff;
+  cursor: pointer;
   display: none;
 }
 .close{
@@ -53,9 +58,9 @@
 }
 
 .logo span{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
-  color:#fff;
+  color:var(--color5);
 }
 /* showcase */
 .showcase{
@@ -64,6 +69,8 @@
   align-items: center;
   /* width:calc(100vw - 90px); */
   max-width:999px;
+  justify-content: center;
+  height: 100%;
   text-align: center;
   margin:auto;
 }
@@ -81,7 +88,7 @@
   margin-bottom: 30px;
 }
 .showcase .subtitle span{
-  color:var(--color4);
+  color:var(--color5);
 }
 .showcase button{
   border:none;
@@ -91,8 +98,9 @@
   display: flex;
   text-align: center;
   align-items: center;
-  background:var(--color1);
+  background:var(--color4);
   color:#fff;
+  margin-bottom: 20px;
 }
 
 /* responsive design */
@@ -107,13 +115,12 @@
     display: none;
   }
   .navbar .tabs{
-    background:#fff;
+    background:var(--color3);
     position: absolute;
     width: 100%;
     height: 100%;
     left:0;
     top:0;
-    color:#000;
   }
   .navbar ul{
     display: flex;
@@ -124,15 +131,16 @@
     justify-content: center;
   }
   .navbar ul a{
-    color:#000;
+    color:#fff;
     margin:15px 0;
     display: block;
     font-size: 22px;
     font-weight: bold;
   }
   .navbar .close{
-    color:#000;
+    color:crimson;
     position: absolute;
+    cursor: pointer;
     right: 25px;
     font-size: 30px;
     top:20px;
