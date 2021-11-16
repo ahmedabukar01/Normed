@@ -1,5 +1,5 @@
 import {FaArrowRight} from 'react-icons/fa';
-import myImage from '../images/banner2.jpg';
+import myImage from '../images/banner1.jpg';
 
 const About = () => {
     return (
@@ -9,11 +9,10 @@ const About = () => {
             </div>
             <div className="right">
                 <h1>About us</h1>
-                <h3>Normed Technology is The full service web design Agency You've Been looking for</h3>
+                <h3>The full service web design Agency You've Been looking for</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipisicing elit. Beatae provident nobis ipsam eaque tenetur molestiae
-                      soluta quasi aperiam, id facere!
+                    Normed Technology Solutions is proud to provide comprehensive Solutions for Entire 
+                    range of Graphic design, Social Media Marketing , Web Design and Web Development.
                 </p>
                 <button className="btn">Read More <FaArrowRight style={btnStyle} /> </button>
             </div>
