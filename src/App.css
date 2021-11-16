@@ -21,7 +21,7 @@
 } */
 .navbar{
   padding:10px 90px;
-  border-bottom: 3px solid #999999;
+  border-bottom: 1px solid #999999;
   height: 52px;
 }
 .nav-content{
@@ -43,7 +43,7 @@
 }
 .bars{
   font-size: 30px;
-  color: var(--color1);
+  color: #fff;
   display: none;
 }
 .close{
@@ -53,7 +53,7 @@
 .logo span{
   font-size: 30px;
   font-weight: 600;
-  color:var(--color4);
+  color:#fff;
 }
 
 /* responsive design */
