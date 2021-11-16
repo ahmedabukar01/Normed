@@ -12,7 +12,7 @@
 }
 
 .home{
-  background: radial-gradient(rgba(7, 5, 5, 0.808),rgba(39, 34, 34, 0.74)), url('./images/banner1.jpg');
+  /* background: radial-gradient(rgba(7, 5, 5, 0.808),rgba(39, 34, 34, 0.74)), url('./images/banner1.jpg'); */
   height:100vh;
   background-position:center;
   background-size: cover;
