@@ -19,6 +19,5 @@ const styles = {
     height: '100vh',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    overflowX: 'hidden',
     position: 'relative'
 }
