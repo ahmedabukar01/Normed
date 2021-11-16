@@ -11,14 +11,14 @@
   box-sizing: border-box;
 }
 
-.home{
-  /* background: radial-gradient(rgba(7, 5, 5, 0.808),rgba(39, 34, 34, 0.74)), url('./images/banner1.jpg'); */
+/* .home{
+  background: radial-gradient(rgba(7, 5, 5, 0.808),rgba(39, 34, 34, 0.74)), url('./images/banner1.jpg');
   height:100vh;
   background-position:center;
   background-size: cover;
   overflow-x: hidden;
   position: relative;
-}
+} */
 .navbar{
   padding:10px 90px;
   border-bottom: 3px solid #999999;
