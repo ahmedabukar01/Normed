@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:wght@300;400;500;600&family=Playfair+Display&family=Poppins:wght@200;300;400&display=swap');
 
 :root{
   --color1: #1512e7;
@@ -90,7 +91,7 @@
 .showcase .subtitle span{
   color:var(--color5);
 }
-.showcase button{
+.btn{
   border:none;
   font-size: 17px;
   padding:10px 18px;
@@ -106,7 +107,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.showcase button:hover{
+button.btn:hover{
   background:transparent;
   color:var(--color4);
 }
@@ -116,17 +117,47 @@
   height: 100vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .about .left {
   width: calc(50% - 20px);
+  
+}
+.about .left img{
+  width:100%;
+  border:1px solid #fff;
+  transition: transform 0.3s ease;
+}
+.about .left img:hover{
+  transform: scale(0.99);
 }
 .about .right{
   width: calc(50% - 30px);
 }
-.about .left img{
-  width:100%;
-  object-fit: cover;
+.about .right h1{
+  font-size:3em;
+  font-family: 'tahoma',sans-serif;
+  margin:20px 0;
+  position: relative;
 }
+.right h1::after{
+  position: absolute;
+  content: "";
+  top:-50px;
+  left:0;
+  width:100px;
+  height: 5px;
+  background:var(--color4);
+}
+.right h3{
+  font-size: 23px;
+  font-family: 'Lato',sans-serif;
+}
+.right p{
+  margin:20px 0;
+  font-size: 18px;
+}
+
 
 
 
@@ -184,5 +215,33 @@
   .showcase .subtitle{
     font-size: 18px;
   }
- 
+
+  /* About */
+  .about{
+    flex-direction: column;
+  }
+  .about .left{
+    width:100%;
+    margin-bottom: 30px;
+  }
+  .about .right{
+    width:100%;
+    text-align: center;
+  }
+  .about .right h1{
+    font-size: 35px;
+  }
+  .about .right h3{
+    font-size: 22px;
+  }
+  .about .right h1::after{
+    top:-30px;
+    display: block;
+    left:50%;
+    transform:translate(-50%);
+  }
+  .about button{
+    margin: 20px auto;
+    padding:8px 15px;
+  }
 }

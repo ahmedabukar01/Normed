@@ -15,10 +15,15 @@ const About = () => {
                      adipisicing elit. Beatae provident nobis ipsam eaque tenetur molestiae
                       soluta quasi aperiam, id facere!
                 </p>
-                <button>Read More <FaArrowRight /> </button>
+                <button className="btn">Read More <FaArrowRight style={btnStyle} /> </button>
             </div>
         </div>
     )
 }
 
 export default About
+
+// css
+const btnStyle = {
+    marginLeft: '10px'
+}

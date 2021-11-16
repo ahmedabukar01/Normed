@@ -11,7 +11,7 @@ const Showcase = () => {
                 Normed Technology offering bespoke web <span>Design</span>,
                 <span>Development</span> and <span>Support</span> Services based in Mogadisho
             </div>
-            <button>Get My Guide
+            <button className="btn">Get My Guide
                 <FaArrowRight style={arrowStyle}/>
             </button>
         </div>
