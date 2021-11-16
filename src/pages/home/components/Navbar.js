@@ -11,7 +11,7 @@ const Navbar = () =>{
     }
     
     return (
-        <div className="navbar">
+        <div className="navbar center">
             <div className="nav-content">
                 <div className="logo">
                     <span>NT</span>
