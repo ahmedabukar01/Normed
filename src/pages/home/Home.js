@@ -5,7 +5,7 @@ import Showcase from './components/Showcase';
 const Home = () =>{
     
     return (
-        <div className="home" style={styles}>
+        <div className="home" id="home" style={styles}>
             <Navbar />
             <Showcase />
         </div>

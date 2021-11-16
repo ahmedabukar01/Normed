@@ -9,6 +9,13 @@ const Navbar = () =>{
     const handleVisible = () =>{
         setVisible(!visible);
     }
+
+    // Click Links
+    const clickLinks = (e) =>{
+        if(e.target.tagName === 'A' && visible){
+            setVisible(false);
+        }
+    }
     
     return (
         <div className="navbar center">
@@ -21,7 +28,7 @@ const Navbar = () =>{
                     <FaWindowClose className="close" 
                     onClick={()=>handleVisible()}
                     />
-                <ul>
+                <ul onClick={(e)=>clickLinks(e)}>
                     
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
