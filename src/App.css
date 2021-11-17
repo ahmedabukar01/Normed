@@ -113,14 +113,16 @@ button.btn:hover{
 
 /* About */
 .about{
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background:red;
 }
 .about .left {
   width: calc(50% - 20px);
-  height: 88%;
+  /* height: 88%; */
+  height: 80vh;
 }
 .about .left img{
   width:100%;
