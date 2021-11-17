@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-import bgImage from '../images/banner2.jpg';
+import bgImage from '../images/banner3.jpg';
 import Showcase from './components/Showcase';
 
 const Home = () =>{
