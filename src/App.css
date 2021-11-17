@@ -6,6 +6,8 @@
   --color3: #020233;
   --color4: #f1356d;
   --color5: #29f722;
+  --color6: #f0eaea;
+  --color7: #eb0e50;
 }
 *{
   margin:0;
@@ -117,7 +119,6 @@ button.btn:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:red;
 }
 .about .left {
   width: calc(50% - 20px);
@@ -126,7 +127,7 @@ button.btn:hover{
 }
 .about .left img{
   width:100%;
-  max-height: 100%;
+  height: 100%;
   border:1px solid #fff;
   object-fit: cover;
   transition: transform 0.3s ease;
@@ -161,7 +162,55 @@ button.btn:hover{
   font-size: 18px;
 }
 
+/* Services */
 
+.service-content{
+  margin:50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.services h2{
+  font-size: 2em;
+  text-align: center;
+  margin:40px 0;
+  position: relative;
+}
+.services h2::before{
+  content: "";
+  position:absolute;
+  top:-40px;
+  width:150px;
+  height: 4px;
+  border-radius: 2px;
+  background:var(--color4);
+}
+.serv-box{
+  text-align: center;
+  padding:60px 0;
+  border-radius: 3px;
+  box-shadow: 1px 3px 5px rgb(206, 197, 197);
+}
+.serv-box h3{
+  font-size: 24px;
+}
+.serv-box.sp{
+  border-bottom: 4px solid var(--color4);
+}
+.serv-box .icon{
+  color:var(--color4);
+  font-size: 30px;
+}
+.serv-box h3{
+  margin:10px 0;
+}
+.serv-box p{
+  letter-spacing: 1px;
+  font-size: 20px;
+
+}
 
 
 /* responsive design */
@@ -230,7 +279,7 @@ button.btn:hover{
   }
   .about .left{
     width:100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 10px;
   }
   .about .right{
@@ -258,5 +307,11 @@ button.btn:hover{
   .about button{
     margin: 20px auto;
     padding:8px 15px;
+  }
+}
+
+@media only screen and (max-width:618px){
+  .serv-box{
+    padding:60px 20px;
   }
 }
