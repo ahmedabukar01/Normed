@@ -83,12 +83,12 @@ body{
 }
 .showcase .subtitle{
   font-size: 22px;
-  color:lightgrey;
+  color:lightgray;
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
 .showcase .subtitle span{
-  color:var(--color5);
+  color:white;
 }
 .btn{
   border:none;
