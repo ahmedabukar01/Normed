@@ -5,11 +5,12 @@ const Showcase = () => {
     return (
         <div className="showcase center">
             <h1 className="title">
-                We are Graphic Design and Web Development Experts
+                We create <span>web solutions</span> for enterprise-level 
+                organizations
             </h1>
             <div className="subtitle">
                 Normed Technology offering bespoke web <span>Design</span>,
-                <span>Development</span> and <span>Support</span> Services based in Mogadisho
+                <span> Development</span> and <span>Support</span> Services based in Mogadisho
             </div>
             <button className="btn">Get My Guide
                 <FaArrowRight style={arrowStyle}/>

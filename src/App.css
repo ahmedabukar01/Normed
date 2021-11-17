@@ -56,14 +56,13 @@ body{
 .logo span{
   font-size: 40px;
   font-weight: 600;
-  color:var(--color5);
+  color:#fff;
 }
 /* showcase */
 .showcase{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width:calc(100vw - 90px); */
   max-width:999px;
   justify-content: center;
   height: 100%;
@@ -71,11 +70,16 @@ body{
   margin:auto;
 }
 .showcase h1{
-  font-size: 63px;
+  font-size: 60px;
   letter-spacing: 1px;
   color:#fff;
-  font-family: Georgia;
+  font-weight: bold;
+  font-family: 'Lato';
   margin:20px 0;
+}
+.showcase h1 span{
+  font-weight:bolder;
+  color: var(--color4);
 }
 .showcase .subtitle{
   font-size: 22px;
