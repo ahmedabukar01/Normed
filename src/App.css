@@ -180,7 +180,6 @@ button.btn:hover{
 .sub-page{
   background:var(--color4);
   width: 100vw;
-  margin-bottom: 10px;
   min-height: 80vh;
   overflow: hidden;
   display: flex;
@@ -206,6 +205,7 @@ button.btn:hover{
   line-height: 1.7;
   margin: 15px 10px;
   padding: 10px 30px;
+  font-family: "Lato";
 }
 .feedback .person{
   font-size: 22px;
@@ -218,11 +218,16 @@ button.btn:hover{
 .feedback .title{
   letter-spacing: 1px;
   font-size: 19px;
-  color:rgb(29, 27, 27);
+  color:rgb(51, 49, 49);
+  font-style: italic;
 }
 .info{
   display: flex;
   margin-left:20px;
+  margin-top: 20px;
+}
+.feedback .bold{
+  font-weight: bold;
 }
 .info .bg{
   width:100px;
@@ -403,7 +408,7 @@ button.btn:hover{
     margin-left: 0;
     padding:0;
     padding-left: 17px;
-    font-size: 18px;
+    font-size: 19px;
   }
   .feedback .top,
   .feedback .down{
