@@ -6,9 +6,10 @@
   --color3: #020233;
   --color4: #f1356d;
   --color5: #29f722;
-  --color6: #f0eaea;
+  --color6: #f5eef3;
   --color7: #eb0e50;
   --color8: #615a5a;
+  --color9: #fceef8;
 }
 *{
   margin:0;
@@ -116,12 +117,13 @@ button.btn:hover{
 
 /* About */
 .about{
-  margin:30px 0;
+  padding:30px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
   overflow:hidden;
+  background:var(--color6);
 }
 .about .left {
   width: calc(55% - 20px);
@@ -206,9 +208,10 @@ button.btn:hover{
   padding: 10px 30px;
 }
 .feedback .person{
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: bolder;
   margin:8px 0;
+  letter-spacing: 1px;
   margin-top: 20px;
 
 }
@@ -235,7 +238,9 @@ button.btn:hover{
   object-fit: cover;
 }
 /* Services */
-
+.services {
+  background:var(--color9);
+}
 .service-content{
   margin:50px 0;
   display: grid;
@@ -390,6 +395,17 @@ button.btn:hover{
 @media only screen and (max-width:618px){
   .serv-box{
     padding:60px 20px;
+  }
+  .sub-page.center{
+    padding:0;
+  }
+  .feedback .text{
+    margin-top: -10px;
+    margin-left: 0;
+  }
+  .feedback .top,
+  .feedback .down{
+    font-size: 30px;
   }
 }
 
