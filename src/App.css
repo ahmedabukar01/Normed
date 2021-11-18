@@ -8,6 +8,7 @@
   --color5: #29f722;
   --color6: #f0eaea;
   --color7: #eb0e50;
+  --color8: #615a5a;
 }
 *{
   margin:0;
@@ -115,15 +116,17 @@ button.btn:hover{
 
 /* About */
 .about{
-  min-height: 100vh;
+  margin:30px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100vh;
+  overflow:hidden;
 }
 .about .left {
-  width: calc(50% - 20px);
+  width: calc(55% - 20px);
   /* height: 88%; */
-  height: 80vh;
+  height: 80%;
 }
 .about .left img{
   width:100%;
@@ -136,7 +139,7 @@ button.btn:hover{
   transform: scale(0.99);
 }
 .about .right{
-  width: calc(50% - 30px);
+  width: calc(45% - 20px);
 }
 .about .right h1{
   font-size:3em;
@@ -160,6 +163,15 @@ button.btn:hover{
 .right p{
   margin:20px 0;
   font-size: 18px;
+}
+.right .btn{
+  background:transparent;
+  color:var(--color4);
+  border:2px solid var(--color4);
+}
+.right .btn:hover{
+  background:var(--color4);
+  color:#fff;
 }
 
 /* Services */
@@ -189,32 +201,35 @@ button.btn:hover{
 }
 .serv-box{
   text-align: center;
-  padding:60px 0;
+  padding:60px 20px;
   border-radius: 3px;
   box-shadow: 1px 3px 5px rgb(206, 197, 197);
+  cursor: pointer;
 }
 .serv-box h3{
-  font-size: 24px;
+  font-size: 25px;
+  margin:10px 0;
+  font-family: 'Lato';
 }
 .serv-box.sp{
   border-bottom: 4px solid var(--color4);
 }
 .serv-box .icon{
   color:var(--color4);
-  font-size: 30px;
-}
-.serv-box h3{
-  margin:10px 0;
+  font-size: 35px;
 }
 .serv-box p{
   letter-spacing: 1px;
   font-size: 20px;
-
+  line-height: 1.7;
+  color:var(--color8);
 }
 
 
 /* responsive design */
-@media only screen and (max-width:745px){
+
+
+@media only screen and (max-width:768px){
   .center{
     padding:10px 40px;
   }
@@ -284,7 +299,6 @@ button.btn:hover{
   }
   .about .right{
     width:100%;
-    text-align: center;
   }
   .about .right h1{
     font-size: 35px;
@@ -300,12 +314,8 @@ button.btn:hover{
   }
   .about .right h1::after{
     top:-30px;
-    display: block;
-    left:50%;
-    transform:translate(-50%);
   }
   .about button{
-    margin: 20px auto;
     padding:8px 15px;
   }
 }
