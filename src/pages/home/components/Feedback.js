@@ -1,14 +1,14 @@
 import React from 'react';
-import photo from './image/logo.png';
+import photo from './image/profile.jpg';
 
 const Feedback = () => {
     return (
         <div className="feedback">
-            <span> &bdquo; </span>
+            <span className="top"> &bdquo; </span>
             <p className="text">
                 I absolutely love working with your team! You all are wicked smart but never let us feel silly
                 with the 'uhh I'll have to get back to you' response. I very
-                much appreciate your  patience with our team and the amazing things we're doing together!
+                much appreciate your  patience with our team and the amazing things we're doing together! <span className="down"> &bdquo; </span>
             </p>
             <div className="info">
                  <div className="bg">
