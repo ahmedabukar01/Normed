@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import photo from './image/logo.png';
 
 const Feedback = () => {
     return (
@@ -9,8 +10,15 @@ const Feedback = () => {
                 with the 'uhh I'll have to get back to you' response. I very
                 much appreciate your  patience with our team and the amazing things we're doing together!
             </p>
-            <p className="person">Omar Abdy</p>
-            <p className="title">Social media marketing Manager, Som City</p>
+            <div className="info">
+                 <div className="bg">
+                 <img src={photo} alt="profile" />
+                 </div>
+                <div>
+                <p className="person">Omar Abdy</p>
+                <p className="title">product Manager at Som City</p>
+                </div>
+            </div>
         </div>
     )
 }
