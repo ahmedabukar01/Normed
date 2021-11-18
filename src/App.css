@@ -117,7 +117,7 @@ button.btn:hover{
 
 /* About */
 .about{
-  padding:30px 0;
+  padding:30px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,7 +128,8 @@ button.btn:hover{
 .about .left {
   width: calc(55% - 20px);
   /* height: 88%; */
-  height: 80%;
+  max-height: 500px;
+  overflow: hidden;
 }
 .about .left img{
   width:100%;
@@ -152,10 +153,10 @@ button.btn:hover{
 .right h1::after{
   position: absolute;
   content: "";
-  top:-50px;
+  top:-40px;
   left:0;
-  width:100px;
-  height: 5px;
+  width:140px;
+  height: 2.8px;
   background:var(--color4);
 }
 .right h3{
@@ -245,6 +246,7 @@ button.btn:hover{
 /* Services */
 .services {
   background:var(--color9);
+  padding-top:35px;
 }
 .service-content{
   margin:50px 0;
@@ -263,9 +265,9 @@ button.btn:hover{
 .services h2::before{
   content: "";
   position:absolute;
-  top:-40px;
-  width:150px;
-  height: 4px;
+  top:-30px;
+  width:120px;
+  height: 2.8px;
   border-radius: 2px;
   background:var(--color4);
 }
@@ -369,6 +371,7 @@ button.btn:hover{
   }
   .about .right{
     width:100%;
+    margin-top: 30px;
   }
   .about .right h1{
     font-size: 35px;
