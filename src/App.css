@@ -400,8 +400,10 @@ button.btn:hover{
     padding:0;
   }
   .feedback .text{
-    margin-top: -10px;
     margin-left: 0;
+    padding:0;
+    padding-left: 17px;
+    font-size: 18px;
   }
   .feedback .top,
   .feedback .down{
