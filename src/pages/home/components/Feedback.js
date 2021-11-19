@@ -19,7 +19,7 @@ const Feedback = () => {
                  </div>
                 <div>
                 <p className="person">Omar Abdy</p>
-                <p className="title">product Manager at Som City</p>
+                <p className="title">product Manager, Som City</p>
                 </div>
             </div>
         </div>

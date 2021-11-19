@@ -88,11 +88,12 @@ body{
 .showcase .subtitle{
   font-size: 22px;
   color:lightgray;
+  font-weight: 200;
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
 .showcase .subtitle span{
-  color:white;
+  color:rgb(201, 174, 187);;
 }
 .btn{
   border:none;
@@ -165,7 +166,9 @@ button.btn:hover{
 }
 .right p{
   margin:20px 0;
-  font-size: 18px;
+  font-size: 19px;
+  line-height: 1.6;
+  font-weight: 100;
 }
 .right .btn{
   background:transparent;
@@ -211,21 +214,22 @@ button.btn:hover{
 .feedback .person{
   font-size: 22px;
   font-weight: bolder;
-  margin:8px 0;
+  margin:5px 0;
   letter-spacing: 1px;
-  margin-top: 20px;
-
 }
 .feedback .title{
   letter-spacing: 1px;
-  font-size: 19px;
-  color:rgb(51, 49, 49);
+  font-size: 15px;
+  font-weight:100;
+  color:#ddd8d8;
   font-style: italic;
 }
 .info{
   display: flex;
   margin-left:20px;
   margin-top: 20px;
+  align-items: center;
+  overflow:hidden;
 }
 .feedback .bold{
   font-weight: bold;
