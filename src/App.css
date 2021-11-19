@@ -250,7 +250,7 @@ button.btn:hover{
 /* Services */
 .services {
   background:var(--color9);
-  padding-top:35px;
+  padding-top: 40px;
 }
 .service-content{
   margin:50px 0;
@@ -269,7 +269,7 @@ button.btn:hover{
 .services h2::before{
   content: "";
   position:absolute;
-  top:-30px;
+  top:-20px;
   width:120px;
   height: 2.8px;
   border-radius: 2px;
@@ -401,6 +401,14 @@ button.btn:hover{
   .feedback .text{
     font-size: 23px;
     margin:10px 8px;
+  }
+  .services{
+    padding-top: 25px;
+  }
+  .serv-box h3{
+    font-weight: 500;
+    font-weight: 22px;
+    color:#000;
   }
 }
 
