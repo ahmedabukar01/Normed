@@ -20,10 +20,18 @@ html,
 body{
   scroll-behavior: smooth;
 }
+
 .navbar{
   border-bottom: 1px solid #999999;
   height: 60px;
 }
+/* .home{
+  background: linear-gradient(rgba(17, 15, 15, 0.858),rgba(19, 17, 18, 0.804)), url('./pages/images/banner4.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+} */
 .center{
   padding:10px 90px;
 }
@@ -303,15 +311,7 @@ button.btn:hover{
 }
 
 /* Cover page */
-.cover-page{
-  background: linear-gradient(rgba(20, 17, 17, 0.527),rgba(10, 8, 8, 0.548)), url('./pages/home/components/image/cover.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 80vh;
-  width:100%;
-  display: flex;
-  align-items: center;
-}
+
 .webcover{
   width:100%;
   text-align: center;
@@ -487,6 +487,9 @@ button.btn:hover{
 @media only screen and (max-width:430px){
   .showcase h1{
     font-size: 33px;
+  }
+  .showcase .subtitle{
+    font-size: 16px;
   }
   .info .bg{
     height: 60px;
