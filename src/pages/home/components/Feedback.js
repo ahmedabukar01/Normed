@@ -6,11 +6,9 @@ const Feedback = () => {
         <div className="feedback">
             <span className="top"> &bdquo; </span>
             <p className="text">
-                Normed Technology has been pivotal to the success of our 
-                city's Website. From its initial design to the final
-                deployment, every phase has been met with <span className="bold">
-                great customer service & quality technical support.
-                </span>
+                We brainstormed with the Normed Technology Team and within two months our
+                system was operational. They are always <span className="bold">Very responsive</span> to our
+                request and timelines, and innovative in creating solutions to needs.
                 <span className="down"> &bdquo; </span>
             </p>
             <div className="info">
@@ -30,9 +28,7 @@ export default Feedback
 
 
 /*
-    Normed Technology has been pivotal to the success of our 
-    city's Website. From its initial design to the final
-    deployment, every phase has been met with <span>
-    great customer service &
-    </span>
+    We brainstormed with the Normed Technology Team and within two months our
+    system was operational. They are always <span>Very responsive</span> to our
+    request and timelines, and innovative in creating solutions to needs.
 */
