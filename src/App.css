@@ -60,7 +60,7 @@ body{
 .logo span{
   font-size: 40px;
   font-weight: 600;
-  color:#fff;
+  color:var(--color4);
 }
 /* showcase */
 .showcase{
@@ -72,6 +72,7 @@ body{
   height: 100%;
   text-align: center;
   margin:auto;
+  overflow: hidden;
 }
 .showcase h1{
   font-size: 60px;
@@ -301,6 +302,11 @@ button.btn:hover{
   color:var(--color8);
 }
 
+/* Cover page */
+
+
+
+
 
 /* responsive design */
 
@@ -432,6 +438,9 @@ button.btn:hover{
 }
 
 @media only screen and (max-width:430px){
+  .showcase h1{
+    font-size: 33px;
+  }
   .info .bg{
     height: 60px;
     width: 60px;
