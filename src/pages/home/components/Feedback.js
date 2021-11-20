@@ -16,7 +16,7 @@ const Feedback = () => {
                  <img src={photo} alt="profile" />
                  </div>
                 <div>
-                <p className="person">Omar Abdy</p>
+                <p className="person">Ahmed Abukar</p>
                 <p className="title">product Manager, Som City</p>
                 </div>
             </div>

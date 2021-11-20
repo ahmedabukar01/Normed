@@ -1,5 +1,5 @@
 import {FaArrowRight} from 'react-icons/fa';
-import myImage from '../images/banner2.jpg';
+import myImage from '../images/banner5.jpg';
 
 const About = () => {
     return (
