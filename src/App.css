@@ -304,7 +304,7 @@ button.btn:hover{
 
 /* Cover page */
 .cover-page{
-  background: linear-gradient(rgba(39, 33, 33, 0.527),rgba(39, 31, 31, 0.548)), url('./pages/home/components/image/cover.jpg');
+  background: linear-gradient(rgba(20, 17, 17, 0.527),rgba(10, 8, 8, 0.548)), url('./pages/home/components/image/cover.jpg');
   background-size: cover;
   background-position: center;
   min-height: 80vh;
