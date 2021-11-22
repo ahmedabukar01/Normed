@@ -320,9 +320,10 @@ button.btn:hover{
   display: flex;
   align-items: center; */
 }
-/* 
-   webcover is not working
- */
+.webcover{
+  width: 100%;
+  text-align: center;
+}
 .webcover h2{
   color:#fff;
   font-size: 40px;
