@@ -155,7 +155,7 @@ button.btn:hover{
   width: calc(45% - 20px);
 }
 .about .right h1{
-  font-size:3em;
+  font-size:2.5em;
   font-family: 'tahoma',sans-serif;
   margin:20px 0;
   position: relative;
@@ -170,13 +170,12 @@ button.btn:hover{
   background:var(--color4);
 }
 .right h3{
-  font-size: 23px;
-  font-weight: 600;
+  font-size: 19px;
   font-family: 'Lato';
 }
 .right p{
   margin:20px 0;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Lato';
@@ -321,10 +320,9 @@ button.btn:hover{
   display: flex;
   align-items: center; */
 }
-.webcover{
-  width:100%;
-  text-align: center;
-}
+/* 
+   webcover is not working
+ */
 .webcover h2{
   color:#fff;
   font-size: 40px;
@@ -428,13 +426,6 @@ button.btn:hover{
   .about .right{
     width:100%;
     margin-top: 30px;
-  }
-  .about .right h1{
-    font-size: 35px;
-  }
-  .about .right h3{
-    font-size: 21px;
-    font-weight: 500;
   }
   
   .about .right h1::after{
