@@ -133,7 +133,7 @@ button.btn:hover{
   align-items: center;
   min-height: 100vh;
   overflow:hidden;
-  background:var(--color6);
+  background:#ffff;
 }
 .about .left {
   width: calc(55% - 20px);
@@ -171,13 +171,15 @@ button.btn:hover{
 }
 .right h3{
   font-size: 23px;
-  font-family: 'Lato',sans-serif;
+  font-weight: 600;
+  font-family: 'Lato';
 }
 .right p{
   margin:20px 0;
   font-size: 19px;
   line-height: 1.6;
-  font-weight: 100;
+  font-weight: 400;
+  font-family: 'Lato';
 }
 .right .btn{
   background:transparent;
@@ -258,7 +260,7 @@ button.btn:hover{
 }
 /* Services */
 .services {
-  background:var(--color9);
+  background:#fff;
   padding-top: 40px;
 }
 .service-content{
@@ -328,10 +330,12 @@ button.btn:hover{
   font-size: 40px;
 }
 .webcover p{
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 100;
   margin:20px auto;
   width:50%;
-  color:#e4e0e0;
+  color:#fff;
+  letter-spacing: 1px;
 }
 .webcover button.btn{
   margin:auto;
@@ -429,14 +433,10 @@ button.btn:hover{
     font-size: 35px;
   }
   .about .right h3{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 21px;
+    font-weight: 500;
   }
-  .about .right p{
-    font-size: 17px;
-    font-family: 'Poppins';
-    font-weight: 100;
-  }
+  
   .about .right h1::after{
     top:-30px;
   }
@@ -498,6 +498,7 @@ button.btn:hover{
   .showcase .subtitle{
     font-size: 16px;
   }
+
   .info .bg{
     height: 60px;
     width: 60px;

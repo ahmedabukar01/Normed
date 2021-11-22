@@ -9,7 +9,7 @@ const About = () => {
             </div>
             <div className="right">
                 <h1>About us</h1>
-                <h3>The full service web design Agency You've Been looking for</h3>
+                <h3>The Full Service Web Design Agency You've Been looking for</h3>
                 <p>
                     Normed Technology Solutions is proud to provide comprehensive Solutions for Entire 
                     range of Graphic design, Social Media Marketing , Web Design and Web Development.
