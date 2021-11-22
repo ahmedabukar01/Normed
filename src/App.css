@@ -5,7 +5,7 @@
   --color2: #6f0dca;
   --color3: #020233;
   --color4: #f1356d;
-  --color5: #29f722;
+  --color5: #eee6e9;
   --color6: #f5eef3;
   --color7: #eb0e50;
   --color8: #615a5a;
@@ -349,6 +349,53 @@ button.btn:hover{
   color:var(--color7);
 }
 
+/* contact */
+h1{
+  text-align: center;
+  margin:20px 0 35px;
+}
+.contact-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cont-left{
+  width:calc(40% - 20px);
+}
+.cont-right{
+  width:calc(55% - 20px);
+  max-height: vh;
+}
+.cont-box{
+  display: flex;
+  align-items: center;
+  margin:20px 0;
+}
+.cont-box .info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.cont-box .icon-box{
+  margin-top: 4%;
+}
+.cont-box .title{
+  color:#5c5353;
+  margin-bottom: 8px;
+}
+.cont-box .subtitle{
+  font-size: 17px;
+  font-weight: 500;
+}
+.cont-box .icon{
+  font-size: 24px;
+  color:var(--color7);
+}
+iframe{
+  width:100%;
+  border:0;
+}
 
 
 
@@ -458,6 +505,16 @@ button.btn:hover{
   .webcover button.btn{
     font-size: 15px;
     padding:10px 10px;
+  }
+  /* contact */
+  .contact-content{
+    flex-direction: column;
+  }
+  .cont-left{
+    width: 100%;
+  }
+  .cont-right{
+    width: 100%;
   }
 }
 
