@@ -4,6 +4,7 @@ import About from './pages/home/About';
 import Services from './pages/home/Services';
 import Subpage from './pages/home/Subpage';
 import CoverPage from './pages/home/CoverPage';
+import Contact from './pages/home/Contact';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Subpage />
       <Services />
       <CoverPage />
+      <Contact />
     </div>
   );
 }
