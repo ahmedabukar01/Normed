@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from './image/profile.jpg';
+import photo from './image/profile1.jpg';
 
 const Feedback = () => {
     return (
@@ -16,7 +16,7 @@ const Feedback = () => {
                  <img src={photo} alt="profile" />
                  </div>
                 <div>
-                <p className="person">Ahmed Abukar</p>
+                <p className="person">Zacky Ally</p>
                 <p className="title">product Manager, Som City</p>
                 </div>
             </div>

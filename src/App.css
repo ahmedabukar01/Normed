@@ -251,7 +251,7 @@ button.btn:hover{
   border-radius: 50%;
   margin-right: 20px;
 }
-.info img{
+.feedback .info img{
   width:100%;
   height: 100%;
   border-radius: 50%;
@@ -354,17 +354,19 @@ h1{
   text-align: center;
   margin:20px 0 35px;
 }
+
 .contact-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 .cont-left{
   width:calc(40% - 20px);
 }
 .cont-right{
   width:calc(55% - 20px);
-  max-height: vh;
+  position: relative;
 }
 .cont-box{
   display: flex;
@@ -391,6 +393,14 @@ h1{
 .cont-box .icon{
   font-size: 24px;
   color:var(--color7);
+}
+.cont-text h3{
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.cont-text p{
+  letter-spacing: 1px;
+  font-size: 18px;
 }
 iframe{
   width:100%;
@@ -516,6 +526,9 @@ iframe{
   .cont-right{
     width: 100%;
   }
+  iframe{
+    height: 60vh;
+  }
 }
 
 @media only screen and (max-width:618px){
@@ -541,6 +554,9 @@ iframe{
 }
 
 @media only screen and (max-width:430px){
+  .center{
+    padding:10px 20px;
+  }
   .showcase h1{
     font-size: 33px;
   }
@@ -553,6 +569,9 @@ iframe{
     width: 60px;
   }
   .feedback .title{
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .feedback .person{
+    font-size: 20px;
   }
 }

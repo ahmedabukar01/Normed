@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="contact-content">
                 <div className="contact-left">
                     <div className="cont-text">
-                    <h4>Get in Touch </h4>
+                    <h3>Get in Touch </h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsam. Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="cont-box">
@@ -21,7 +21,7 @@ const Contact = () => {
                                 Find us
                             </div>
                             <div className="subtitle">
-                                Taleeh, Hodan Distict, Banaadir
+                                KM4, Hodan Distict, Banaadir
                             </div>
                         </div>
                     </div>
