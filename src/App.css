@@ -311,7 +311,14 @@ button.btn:hover{
 }
 
 /* Cover page */
-
+.cover-page{
+  min-height: 70vh;
+  /* background: linear-gradient(rgba(20, 17, 17, 0.527),rgba(10, 8, 8, 0.548)),url('./pages/home/components/image/cover2.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center; */
+}
 .webcover{
   width:100%;
   text-align: center;

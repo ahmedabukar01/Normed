@@ -1,6 +1,6 @@
 import React from 'react'
 import Webcover from './components/Webcover'
-import coverImage from './components/image/cover.jpg'
+import coverImage from './components/image/cover1.jpg'
 
 const CoverPage = () => {
     return (
@@ -15,7 +15,7 @@ export default CoverPage;
 // css in js
 
 const coverStyle = {
-        background: `linear-gradient(rgba(20, 17, 17, 0.527),rgba(10, 8, 8, 0.548)), url(${coverImage})`,
+        backgroundImage: `linear-gradient(rgba(20, 17, 17, 0.527),rgba(10, 8, 8, 0.548)), url(${coverImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minhieght: '80vh',
