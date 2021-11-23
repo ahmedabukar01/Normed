@@ -21,7 +21,7 @@ const Contact = () => {
                                 Find us
                             </div>
                             <div className="subtitle">
-                                KM4, Hodan Distict, Banaadir
+                                KM4, Wabari Distict, W Taleeh
                             </div>
                         </div>
                     </div>
