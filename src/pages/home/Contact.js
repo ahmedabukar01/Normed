@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div className="cont-right">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31898.251514613832!2d45.30776470120546!3d2.0433094046665197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d58414977b71633%3A0xe88dc3726b63cb60!2sNormed%20Technology!5e0!3m2!1sen!2sso!4v1637601515208!5m2!1sen!2sso"
-                 width="600" height="450" allowfullscreen="" loading="lazy"
+                 width="600" height="450" allowFullScreen="" loading="lazy"
                  ></iframe>
                 </div>
             </div>
