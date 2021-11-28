@@ -25,6 +25,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    
                     <div className="cont-box">
                         <div className="icon-box">
                             <FaEnvelope className="icon"/>

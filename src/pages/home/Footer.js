@@ -42,10 +42,10 @@ const Footer = () => {
             <div className="contact">
                 <h3>Contact us</h3>
                 <div className="links">
-                    <P>Taleeh, Hodan Distict</P>
-                    <P>Mogadisho, Somalia</P>
-                    <P>info@normed.so</P>
-                    <P>+252 616 119 634</P>
+                    <p>Taleeh, Hodan Distict</p>
+                    <p>Mogadisho, Somalia</p>
+                    <p>info@normed.so</p>
+                    <p>+252 616 119 634</p>
                 </div>
             </div>
             <div className="legal">

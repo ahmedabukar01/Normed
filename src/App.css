@@ -407,6 +407,10 @@ iframe{
   border:0;
 }
 
+/* footer */
+.footer{
+  display:flex;
+}
 
 
 
