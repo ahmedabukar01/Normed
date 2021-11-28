@@ -4,7 +4,7 @@ import { FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
     return (
-        <div className="contact center">
+        <div id="contact" className="contact center">
             <h1>About Us</h1>
             <div className="contact-content">
                 <div className="contact-left">

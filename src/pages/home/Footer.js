@@ -4,19 +4,20 @@ import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer center" id="resource">
+            <div className="footer-content">
             <div className="social">
                 <div className="footer-text">
-                    <h4>Normed Technology</h4>
-                    <p>We don't just design sites that look great,
+                    <h3>Normed Technology</h3>
+                    <p>We don't just design sites that look great,<br />
                         We develop sites that work great.
                     </p>
                 </div>
                 <h4>Follow us on social media</h4>
                 <div className="social-links">
-                    <FaFacebook />
-                    <FaInstagram />
-                    <FaTwitter />
+                    <FaFacebook className="social-icon"/>
+                    <FaInstagram className="social-icon"/>
+                    <FaTwitter className="social-icon"/>
                 </div>
             </div>
             <div className="footer-serv">
@@ -32,7 +33,7 @@ const Footer = () => {
             </div>
             <div className="quick">
                 <h3>Quick Links</h3>
-                <div className="link">
+                <div className="links">
                 <a href="#about">Blog</a>
                 <a href="#about">About Us</a>
                 <a href="#about">Services</a>
@@ -41,7 +42,7 @@ const Footer = () => {
             </div>
             <div className="contact">
                 <h3>Contact us</h3>
-                <div className="links">
+                <div className="add">
                     <p>Taleeh, Hodan Distict</p>
                     <p>Mogadisho, Somalia</p>
                     <p>info@normed.so</p>
@@ -57,6 +58,8 @@ const Footer = () => {
                 <a href="#">Terms of use</a>
               </div>
             </div>
+            </div>
+            <div className="by">&copy; 2021 | Powered by Normed Technology</div>
         </div>
     )
 }
