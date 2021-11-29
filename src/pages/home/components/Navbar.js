@@ -1,4 +1,5 @@
 import {FaBars} from 'react-icons/fa';
+import logo from './image/logo.png';
 import {FaWindowClose} from 'react-icons/fa';
 import { useState } from 'react';
 

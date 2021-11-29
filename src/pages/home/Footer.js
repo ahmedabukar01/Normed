@@ -4,8 +4,8 @@ import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className="footer center" id="resource">
-            <div className="footer-content">
+        <div className="footer" id="resource">
+            <div className="footer-content center">
             <div className="social">
                 <div className="footer-text">
                     <h3>Normed Technology</h3>
