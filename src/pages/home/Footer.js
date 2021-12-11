@@ -15,9 +15,9 @@ const Footer = () => {
                 </div>
                 <h4>Follow us on social media</h4>
                 <div className="social-links">
-                    <FaFacebook className="social-icon"/>
-                    <FaInstagram className="social-icon"/>
-                    <FaTwitter className="social-icon"/>
+                    <a href="https://www.facebook.com/NormedTechnology/"><FaFacebook className="social-icon"/></a>
+                    <a href="https://www.instagram.com/normedtechnology/?hl=en"><FaInstagram className="social-icon"/></a>
+                    <a href="https://twitter.com/Normed_Tech"><FaTwitter className="social-icon"/></a>
                 </div>
             </div>
             <div className="footer-serv">
@@ -45,8 +45,8 @@ const Footer = () => {
                 <div className="add">
                     <p>Taleeh, Hodan Distict</p>
                     <p>Mogadisho, Somalia</p>
-                    <p>info@normed.so</p>
-                    <p>+252 616 119 634</p>
+                    <p>normedtechnology@gmail.com</p>
+                    <p>+252 610 758 513</p>
                 </div>
             </div>
             <div className="legal">
