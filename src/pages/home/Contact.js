@@ -10,7 +10,8 @@ const Contact = () => {
                 <div className="contact-left">
                     <div className="cont-text">
                     <h3>Get in Touch </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsam. Lorem ipsum dolor sit amet.</p>
+                    <p>just feel free to contact as we will respond to you as soon as possible. <br>
+                    we look forward to hear from you :)</br></p>
                     </div>
                     <div className="cont-box">
                         <div className="icon-box">
@@ -35,7 +36,7 @@ const Contact = () => {
                                 Email
                             </div>
                             <div className="subtitle">
-                                info@normed.so
+                                normedtechnology@gmail.com
                             </div>
                         </div>
                     </div>
@@ -48,7 +49,7 @@ const Contact = () => {
                                 Call us
                             </div>
                             <div className="subtitle">
-                                +252 616 119 634
+                                +252 610 758 513
                             </div>
                         </div>
                     </div>

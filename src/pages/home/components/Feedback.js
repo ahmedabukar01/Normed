@@ -7,7 +7,8 @@ const Feedback = () => {
             <span className="top"> &bdquo; </span>
             <p className="text">
                 We brainstormed with the Normed Technology Team and within two months our
-                system was operational. They are always <span className="bold">Very responsive</span> to our
+                system was operational
+                . They are always <span className="bold">Very responsive</span> to our
                 request and timelines, and innovative in creating solutions to needs.
                 <span className="down"> &bdquo; </span>
             </p>
