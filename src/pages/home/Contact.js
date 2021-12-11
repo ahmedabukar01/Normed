@@ -10,8 +10,8 @@ const Contact = () => {
                 <div className="contact-left">
                     <div className="cont-text">
                     <h3>Get in Touch </h3>
-                    <p>just feel free to contact as we will respond to you as soon as possible. <br>
-                    we look forward to hear from you :)</br></p>
+                    <p>just feel free to contact as we will respond to you as soon as possible.<br/>
+                    we look forward to hear from you :)</p>
                     </div>
                     <div className="cont-box">
                         <div className="icon-box">
