@@ -5,8 +5,8 @@ const Showcase = () => {
     return (
         <div className="showcase center">
             <h1 className="title">
-                We create <span>web solutions</span> for enterprise-level 
-                organizations
+                We Create <span>Web Solutions</span> For Enterprise-level 
+                Organizations
             </h1>
             <div className="subtitle">
                 Normed Technology offering bespoke web <span>Design</span>,

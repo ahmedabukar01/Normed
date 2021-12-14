@@ -57,7 +57,7 @@ body{
   color:#fff;
 }
 .bars{
-  font-size: 30px;
+  font-size: 31px;
   color: #fff;
   cursor: pointer;
   display: none;
@@ -66,10 +66,21 @@ body{
   display: none;
 }
 
-.logo span{
+/* .logo span{
   font-size: 40px;
   font-weight: 600;
   color:var(--color4);
+} */
+.navbar.center{
+  padding-top: 0;
+}
+.logo{
+  width:70px;
+  margin-top: -5px;
+}
+.logo img{
+  width:100%;
+  object-fit: cover;
 }
 
 /* showcase */
@@ -89,7 +100,6 @@ body{
   letter-spacing: 1px;
   color:#fff;
   font-weight: bold;
-  font-family: 'Lato';
   margin:20px 0;
 }
 .showcase h1 span{
@@ -622,6 +632,11 @@ iframe{
   }
   .webcover p{
     width:100%;
+  }
+
+  .logo{
+    width:60px;
+    margin-top: 0;
   }
 }
 
