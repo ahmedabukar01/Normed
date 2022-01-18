@@ -3,7 +3,6 @@ import logo from './image/logoo.png';
 import {FaWindowClose} from 'react-icons/fa';
 import { useState } from 'react';
 
-
 const Navbar = () =>{
     const [visible, setVisible] = useState(false);
 
@@ -22,7 +21,6 @@ const Navbar = () =>{
         <div className="navbar center">
             <div className="nav-content">
                 <div className="logo">
-                    {/* <span>NT</span> */}
                     <img src={logo} alt="logo" />
                 </div>
                 <div className={`tabs ${visible}`}

@@ -15,7 +15,7 @@ const Serv = () => {
 
             <div className="serv-box sp">
                 <FaCode  className="icon"/>
-                <h3>Development</h3>
+                <h3>Web Development</h3>
                 <p>We Design and Develop flexible, scale enterprise websites that are 
                     easy to use and manage.
                 </p>
