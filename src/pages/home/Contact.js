@@ -49,7 +49,7 @@ const Contact = () => {
                                 Call us
                             </div>
                             <div className="subtitle">
-                                +252 610 758 513
+                                +252 610 949 323
                             </div>
                         </div>
                     </div>
